@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cover"
+    tools:context="bth.rushhour.makindu.mrush.FirebaseAuth.Signup">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:padding="15dp">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:text="Rush HOUR"
+           android:textColor="#111"
+           android:textStyle="bold"
+           android:textSize="50sp"
+           android:gravity="center"
+           />
+
+       <Button
+           android:id="@+id/signg"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:gravity="center"
+           android:layout_marginTop="15dp"
+           android:background="@drawable/signg" />
+       <Button
+           android:id="@+id/fb"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:gravity="center"
+           android:layout_marginTop="15dp"
+           android:background="@drawable/fb" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="OR"
+           android:layout_marginTop="15dp"
+           android:textColor="#fcfdff"
+           android:gravity="center"
+           android:textStyle="bold"
+           android:textSize="18sp"/>
+       <Button
+           android:id="@+id/login"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:gravity="center"
+           android:text="Login"
+           android:textSize="28sp"
+           android:textColor="@color/colorAccent"
+           android:layout_marginTop="15dp"
+           android:background="@drawable/button_bg_transparent" />
+       </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

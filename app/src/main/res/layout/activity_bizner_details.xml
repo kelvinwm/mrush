@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bth.rushhour.makindu.mrush.Detailsclass.BiznerDetails">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:focusableInTouchMode="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imagebiz"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:src="@drawable/advertise"
+                        android:scaleType="centerCrop"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="15dp">
+
+                        <EditText
+                            android:id="@+id/txtTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:focusable="true"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:inputType="textMultiLine"
+                            android:layout_centerHorizontal="true"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                            android:textColor="#000000" />
+
+                        <EditText
+                            android:id="@+id/txtShortDesc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:inputType="textMultiLine"
+                            android:layout_centerHorizontal="true"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                            android:textColor="#000000"  />
+
+                        <RatingBar
+                            android:id="@+id/ratingbar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:rating="3"
+                            android:layout_marginTop="7dp"
+                            style="?android:attr/ratingBarStyleSmall" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="7dp"
+                            android:gravity="center">
+
+                            <EditText
+                                android:id="@+id/txtPhone"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:textColor="#000000"
+                                android:inputType="phone"
+                                android:layout_weight="1"
+                                android:maxLength="10"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/callbtnbiz"
+                                android:layout_width="60dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/call"
+                                android:scaleType="centerCrop"/>
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/changesbizbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:background="@drawable/button_bg_rounded_corners"
+                            android:text="Submit" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

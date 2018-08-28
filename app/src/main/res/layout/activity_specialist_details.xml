@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bth.rushhour.makindu.mrush.Detailsclass.SpecialistDetails">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:focusableInTouchMode="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imagViewup"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:src="@drawable/icon"
+                        android:scaleType="centerCrop"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="15dp">
+
+                        <EditText
+                            android:id="@+id/txtViewName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:inputType="textMultiLine"
+                            android:scrollbars="vertical"
+                            android:scrollHorizontally="false"
+                            android:minLines="2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/imagViewup"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                            android:textColor="#000000" />
+
+                        <EditText
+                            android:id="@+id/ViewJobShortDesc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textMultiLine"
+                            android:scrollbars="vertical"
+                            android:minLines="2"
+                            android:scrollHorizontally="false"
+                            android:layout_below="@id/textViewName"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="#000000"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+                        <RatingBar
+                            android:id="@+id/txtRating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/ViewJobShortDesc"
+                            android:rating="3"
+                            android:layout_marginTop="7dp"
+                            style="?android:attr/ratingBarStyleSmall" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="7dp"
+                            android:gravity="center">
+
+                            <EditText
+                                android:id="@+id/txtViewPhone"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_below="@id/txtRating"
+                                android:textColor="#000000"
+                                android:inputType="phone"
+                                android:layout_weight="1"
+                                android:maxLength="10"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/callbtn"
+                                android:layout_width="60dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/call"
+                                android:scaleType="centerCrop"/>
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/changesbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:background="@drawable/button_bg_rounded_corners"
+                            android:layout_below="@id/txtViewPhone"
+                            android:text="Submit" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

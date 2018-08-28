@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Rush hour</string>
+    <string name="app_header">Makindu Rush hour</string>
+    <string name="tab_text_1">News</string>
+    <string name="tab_text_2">Biashara</string>
+    <string name="tab_text_3">Huduma</string>
+    <string name="tab_4">SureBet</string>
+    <string name="action_settings">Settings</string>
+    <string name="About">The heart of your business success lies in its marketing.
+        Most aspects of your business depend on successful marketing.
+        The overall marketing umbrella covers advertising, public relations, promotions and sales.
+        And this is our mission @Rush Hour</string>
+    <string name="news">Get latest and breaking news on politics,
+        business, technology, movies, television, sports.
+        Find exclusive news stories on current affairs,
+        matches, events, festivals and  more at Rush hour</string>
+    <string name="services">We Facilitate access, and make better and more efficient use of services
+        (including bodaboda services, social services and health care services) which help  people to lead more
+        independent lives, which in turn helps maintain good health.</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

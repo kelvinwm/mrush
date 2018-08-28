@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "130359249155",
+    "firebase_url": "https://makindu-rush-hour.firebaseio.com",
+    "project_id": "makindu-rush-hour",
+    "storage_bucket": "makindu-rush-hour.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130359249155:android:ba875e9653cdb4be",
+        "android_client_info": {
+          "package_name": "bth.rushhour.makindu.mrush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130359249155-035qtr1e5h87qvugtq0d0s4ej6pc0197.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bth.rushhour.makindu.mrush",
+            "certificate_hash": "545bf92f1786fdd7fd3c7b6fce7d6306f5244542"
+          }
+        },
+        {
+          "client_id": "130359249155-1gv9b6uccbb2fag4d5vidpi22p42f9tj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJEZh_vD3euTjXiciRdSyx4hLtlOE-nAI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130359249155-1gv9b6uccbb2fag4d5vidpi22p42f9tj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
